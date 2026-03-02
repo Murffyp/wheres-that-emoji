@@ -1,4 +1,6 @@
-# Where's That Emoji? 🔍
+<p align="center">
+  <img src="assets/logo.svg" alt="Where's That Emoji?" width="400">
+</p>
 
 You know it exists. You just can't find it. **Where's That Emoji?** fixes that.
 
