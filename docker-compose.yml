@@ -1,0 +1,8 @@
+services:
+  emoji-search:
+    image: emoji-search:latest
+    restart: always
+    ports:
+      - "7700:7700"
+    volumes:
+      - ./data/emojis.json:/app/data/emojis.json:ro
