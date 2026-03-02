@@ -6,7 +6,7 @@ A lightweight, self-hosted emoji search tool. Fuzzy search across 5,200+ emojis 
 
 ---
 
-## Features
+# Features
 
 - Fuzzy search across 5,200+ emojis
 - Filter by group and subgroup
@@ -19,21 +19,21 @@ A lightweight, self-hosted emoji search tool. Fuzzy search across 5,200+ emojis 
 ---
 
 ---
-## Instructions
+# Instructions
 
-### 1) Clone & Build
+## 1) Clone & Build
 
-####Clone
+### Clone
 ```bash
 git clone https://github.com/Murffyp/wheres-that-emoji.git
 ```
-####Build
+### Build
 ```bash
 cd wheres-that-emoji
 docker build -t wheres-that-emoji:latest .
 ```
 
-####Run
+### Run
 In the build folder:
 ```bash
 docker compose up -d 
@@ -43,7 +43,7 @@ Then open [http://localhost:7700](http://localhost:7700)
 
 ---
 
-### Docker Compose
+## Docker Compose
 
 ```yaml
 services:
@@ -58,7 +58,7 @@ services:
 
 ---
 
-### Build Notes
+## Build Notes
 
 | Environment | Build Time |
 |---|:--:|
@@ -69,7 +69,7 @@ Built on `python:3.12-alpine` — lean, fast build, small image.
 
 ---
 
-### Usage
+## Usage
 
 1. Type anything into the search box — emoji name, keyword, category
 2. Optionally filter by group
