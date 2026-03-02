@@ -17,8 +17,6 @@ A lightweight, self-hosted emoji search tool. Fuzzy search across 5,200+ emojis 
     - Builds in UNDER 60 seconds
 
 ---
-
----
 # Instructions
 
 ## 1) Clone & Build
